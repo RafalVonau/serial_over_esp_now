@@ -21,7 +21,7 @@ def test_recv(name,baudrate):
 	ser.baudrate = baudrate
 	ser.bytesize = serial.EIGHTBITS #number of bits per bytes
 	ser.parity = serial.PARITY_NONE #set parity check: no parity
-	ser.stopbits = serial.STOPBITS_TWO #number of stop bits
+	ser.stopbits = serial.STOPBITS_ONE #number of stop bits
 	#ser.timeout = None          #block read
 	ser.timeout = 1            #non-block read
 	#ser.timeout = 2              #timeout block read
