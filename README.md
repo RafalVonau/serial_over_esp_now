@@ -10,7 +10,7 @@ The project uses platformio build environment.
 # Building under Linux
 * install PlatformIO
 * enter project directory
-* connect two Webmod D1 mini boards to PC computer over USB cable.
+* connect two Webmos D1 mini boards to PC computer over USB cable.
 * type in terminal:
   platformio run
   platformio upload
