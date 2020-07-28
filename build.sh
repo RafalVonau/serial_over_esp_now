@@ -1,4 +1,4 @@
 #!/bin/bash
 
-platformio run
+platformio run -t upload
 
